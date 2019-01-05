@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tab_bgs"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_backstrip"
+        >
+        
+   	<ImageView
+  		android:id="@+id/backButton" 
+  		android:layout_width="wrap_content" 
+  		android:layout_height="wrap_content" 
+	    android:layout_marginLeft="4dp" 
+  		android:layout_marginTop="4dp"
+  		android:background="@drawable/tab_backbt"
+   		/> 
+
+     <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Location Details"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:visibility="gone" 
+            android:inputType="none"/>
+
+        <TextView
+            android:id="@+id/detailstitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Large Text"
+             android:textSize="30sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:inputType="none"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/detailsname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/textfeildnew"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" 
+        android:inputType="none"/>
+
+    <TextView
+        android:id="@+id/detailsadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/textfeildnew"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:typeface="serif" 
+        android:inputType="none"/>
+
+    <TextView
+        android:id="@+id/detailscall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/textfeildnew"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Call"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:typeface="serif" 
+        android:inputType="none"/>
+    
+   
+    
+</LinearLayout>

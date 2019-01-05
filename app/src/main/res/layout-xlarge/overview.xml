@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tab_bgs" >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/tab_backstrip">
+        
+        <ImageView 
+       android:id="@+id/listd_back"
+       android:src="@drawable/tab_backbt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="4dp"
+       android:layout_marginTop="4dp"
+       />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Overview"
+        android:textStyle="bold"
+        android:textColor="#FF6633"
+        android:layout_centerInParent="true"
+        android:inputType="none"/>
+   
+    </RelativeLayout>
+     <ScrollView 
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        >
+    <TextView 
+        android:id="@+id/wpb_guest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:inputType="none"/>
+    
+      </ScrollView>  
+    
+ 
+</LinearLayout>

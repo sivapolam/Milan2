@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgs"
+    android:orientation="vertical" >
+
+    
+    <RelativeLayout 
+  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+  	 android:background="@drawable/backstrip"
+    >
+     
+    <ImageView
+  android:id="@+id/backButton" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  
+  android:layout_marginLeft="2dp"
+   android:layout_marginTop="2dp"
+  android:background="@drawable/backbt"
+   />
+
+    <TextView
+        android:id="@+id/searchtitletxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="Test"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:inputType="none"/>
+ 
+   </RelativeLayout>
+    
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#FFFFFF"
+        android:dividerHeight="0px"
+        android:drawSelectorOnTop="true"
+        android:focusable="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:smoothScrollbar="true"
+        android:tag="listTag" >
+    </ListView>
+
+</LinearLayout>

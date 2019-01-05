@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="brown">#a77040</drawable>
+    <drawable name="grey">#808080</drawable>
+	<drawable name="blue">#024f9e</drawable>
+	<drawable name="red">#ff0000</drawable>
+  
+    <color name="light_gray">#A8A8A8</color>
+    <color name="dark_gray">#606060</color>
+   <color name="black">#000000</color>
+   <color name="blue_sky">#A0C8FF</color>
+	<color name="vert_manu">#CCFF00</color>
+
+	<color name="white">#FFFFFF</color>
+	<color name="red">#FF0000</color>
+    <color name="dark_blue">#0066B3</color>
+    <color name="light_blue">#BFE3FE</color>
+    <color name="farmer_blue">#047dc7</color>
+    
+
+<color name="lightblue">#d7e2f8</color>
+<color name="bcolorblack">#736F6F</color>
+<color name="coloryello">#E7C521</color>
+<color name="ProfiletextColor">#F85E0A</color>
+
+
+ <color name="custom_startup_color">#FFFFFFFF</color>
+    <color name="title_Color">#FFFFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#FFFFFFFF</color>
+    
+    <color name="green_focus">#70acfe01</color>
+    <color name="red_focus">#7DF42A41</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="homelogo">#818386</color>   
+    
+    
+    <color name="searchresultcolor">#3A5D73</color>
+    <color name="searchresultpostcolor">#CFD3D6</color>
+     <color name="emailgreen">#DB2139</color>
+     <drawable name="transparents">#00000000</drawable>
+     <color name="lightyellow">#F0E68C</color>
+     <color name="Yellow">#FFFF33</color>
+     <color name="bgcolor">#96a1ae</color>
+     
+     <!-- Maps tab -->
+    <color name="tabMedium">#2B2B2B</color> 
+  	<color name="tabDark">#000000</color> 
+  	<color name="tabTransparent">#10ffffff</color> 
+     
+</resources>
